@@ -1,0 +1,67 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url(Police/Montserrat/Montserrat-Black.ttf),
+        url(Police/Montserrat/Montserrat-Bold.ttf)
+        url(Police/Montserrat/Montserrat-ExtraBoldItalic.ttf)
+}
+@font-face{
+    font-family: 'Roboto';
+    src:url(Police/ROBOTOfont/Roboto-Black.ttf),
+        url(Police/ROBOTOfont/Roboto-Bold.ttf)
+}
+*{
+    margin: 0px; 
+}
+
+body{ 
+    width: 98%;
+    height: 100%;
+    background-image: url(Images/hero-background.jpg);
+}
+.contente1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 98%;
+}
+.cont-navigation{
+    margin-left:1%;
+    margin-top: 1%;
+}
+.navigation{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.Logo{
+    width: 100px;
+    height: 200x;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+ul li{
+    list-style-type: none;
+}
+ul li a {
+    color: #fbedf0;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bolder,Arial;
+    text-decoration: none;
+    
+}
+a:active{
+    color:black; /*#f80b65;*/
+    text-decoration: underline;
+}
+
+
+.menu{
+    margin-right:30px;
+}
