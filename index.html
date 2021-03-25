@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Kinshasa Digital</title>
+    <title>Kinshasa Digital :Agence</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href='Style05.css'>
     <link rel='stylesheet' type='text/css' href='Stylenavigation.css'>
@@ -24,7 +24,7 @@
                     <ul class="inline">
                         <li class="no-dot"><a class="menu" id="accueil" href="index.html">Accueil</a> </li>
                         <li class="no-dot"><a class="menu" href="#">Academy</a></li>
-                        <li class="no-dot"><a class="menu" href="emploi.html">Emploi</a></li>
+                        <li class="no-dot active"><a class="menu" href="emploi.html">Emploi</a></li>
                         <li class="no-dot"><a class="menu" href="#">Contact</a></li>
                     </ul>
                 </nav>
@@ -424,7 +424,7 @@
                         <label for="title">
                             quel titre vous decrirez le mieux ?
                         </label>
-                        <select id="title">
+                        <select class="select-text" id="title">
                             <option value="null">&nbsp;</option>
                             <option value="consultant ">Consultant</option>
                             <option value="entrepreneur ">Entrepreneur</option>
@@ -442,7 +442,7 @@
                     </div>
                     <div class="form-right ">
                         <label for="agro">Secteur d'activité</label>
-                        <select name="select" id="agro">
+                        <select class="select-text" name="select" id="agro">
                             <option value="null">&nbsp;</option>
                             <option value="Agriculture et foresterie ">Agriculture et foresterie</option>
                             <option value="Aéroport ">Aéroport</option>
@@ -468,7 +468,7 @@
                     </div>
                     <div class="form-bas-all">
                         <label for="type">type de demande</label>
-                        <select name="type" id="type">
+                        <select class="select-text" name="type" id="type">
                             <option value="null">&nbsp;</option>
                             <option value="site_web">Développement: Site Internet</option>
                             <option value="app_mobile">Développement: Application mobile</option>
@@ -491,60 +491,39 @@
                     </div>
                 </form>
             </div>
-            </section>
+
+        </div>
+        <div class="adress-footer">
             <footer>
                 <div class="footer-container">
                     <div class="footer-container-left">
                         <address>
-                    <strong>Kinshasa Digital</strong><br>
-                        Texaf Digital Campus<br>
-                        Concession COTEX (Référence: en face de l’Ambassade de France)<br>
-                        N° 63 Avenue Colonel Mondjiba<br>
-                        Commune de Ngaliema - Kinshasa<br>
-                        République Démocratique du Congo
-                    
-                </address>
+                            <strong>Kinshasa Digital</strong><br>
+                            Texaf Digital Campus<br>
+                            Concession COTEX (Référence: en face de l’Ambassade de France)<br>
+                            N° 63 Avenue Colonel Mondjiba<br>
+                            Commune de Ngaliema - Kinshasa<br>
+                            République Démocratique du Congo    
+                        </address>
                         <div class="footer-container-left-lien">
-                            <a href="mailto:info@kinshasadigital.com">
-                        info@kinshasadigital.com</a>
+                            <a href="mailto:info@kinshasadigital.com">info@kinshasadigital.com</a>
                             <br>
-                            <a href="tel:+243891341236">
-                        +243 891 341 236
-                    </a>
+                            <a href="tel:+243891341236">+243 891 341 236</a>
                         </div>
-                        <ul class="social-links">
-                            <li>
-                                <a title="site kinshasa digital academy" target="_blank" href="https://www.facebook.com/KinshasaDigital/">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a title="compte twitter kinshasa digital academy" target="_blank" href="https://twitter.com/kinshasadigital">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a title="compte linkedin" target="_blank" href="https://fr.linkedin.com/company/kinshasa-digital">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
+
                     <div class="footer-container-right">
                         <p>
                             Inscrivez-vous à notre <strong>newsletter</strong> pour vous tenir au courant de nos activités.
                         </p>
-                        <form action="index.html">
-                            <input type="email" placeholder="Adresse email">
-                            <button type="submit">
-                        s'inscrire
-                    </button>
-                        </form>
+
+                        <input type="email" placeholder="Adresse email">
+                        <button type="submit">s'inscrire</button>
+
                         <a href="https://kinshasadigital.com/mentions-legales" class="text-white">Mentions Légales</a>
                     </div>
                 </div>
             </footer>
-
         </div>
     </div>
 </body>
