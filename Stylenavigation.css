@@ -92,8 +92,16 @@ li.no-dot a::after {
     left: 0;
 } */
 
-nav a:active {
+/* nav a:active {
     border-bottom: 2px solid #ff046b;
+    transition: width .3s;
+    width: 100%;
+    left: 0;
+    padding-bottom: 4px;
+} */
+ul li.active a{
+
+    border-bottom: 4px solid #ff046b;
     transition: width .3s;
     width: 100%;
     left: 0;
@@ -101,7 +109,7 @@ nav a:active {
 }
 
 nav a:hover {
-    border-bottom: 3px solid #ff046b;
+    border-bottom: 4px solid #ff046b;
     transition: width .3s;
     width: 100%;
     left: 0;
